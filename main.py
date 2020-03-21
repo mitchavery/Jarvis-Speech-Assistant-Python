@@ -19,8 +19,6 @@ speaker.setProperty('voice', voices[1].id)
 rate = speaker.getProperty('rate')
 speaker.setProperty('rate', 190)
 
-EMAIL_ADDRESS = 'avery.mitch651@gmail.com'
-EMAIL_PASSWORD = 'Saxdude135!'
 
 MY_USERNAME = 'mitch avery'
 MY_PASSWORD = 'turtles'
