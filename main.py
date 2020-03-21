@@ -11,7 +11,7 @@ import smtplib
 from time import ctime
 from collections import OrderedDict
 
-r = sr.Recognizer()
+r = sr.Recognizer() # 
 
 speaker = pyttsx3.init('sapi5')
 voices = speaker.getProperty('voices')
@@ -82,7 +82,7 @@ def create_and_send_email(subject, msg, recv_email=EMAIL_ADDRESS):
 
 
 if __name__ == "__main__":
-    Jarvis_speak('Hello my name is Jarvis. Please provide your login credentials')
+    Jarvis_speak('Hello my name is Jarvis')
     """
     username = record_audio('What is your username')
     password = record_audio('What is your password')
